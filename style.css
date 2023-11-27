@@ -1,0 +1,328 @@
+/* Font link  */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Inter&family=Poppins:wght@400;500&display=swap');
+
+/* Website style  */
+
+* {
+    width: auto;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navber style  */
+
+.header {
+    padding: 87px 150px   0;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-fitst p {
+    color: #3a3a3a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-last {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-last a {
+    color: #3a3a3a;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Camera style  */
+
+.camera-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0 150px;
+}
+.camera-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 582px;
+}
+
+.camera-title {
+    color: #3a3a3a;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.camera-description {
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.primary-btn {
+    /* width: auto; */
+    color: #fff;
+    background-color: #E02C6D;
+    border: 1px solid transparent;
+    padding: 10px 24px;
+    font-size: 16px; 
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.primary-btn a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.camera-img {
+    background-image: url(images/Circle\ design.svg);
+}
+
+/* logo style  */
+
+.logo-container {
+    margin-top: 100px;
+}
+
+.logo-container hr {
+   width: 1110px;
+   height: 1px;
+   margin:  0 auto;
+   color: #3a3a3a;
+   opacity: 0.25;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 35px 0;
+}
+
+/* product style  */
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+}
+.product-title {
+    text-align: center;
+    font-size: 28px;
+    color: #3a3a3a;
+    font-weight: 700;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product {
+    width: 329px;
+    height: 476px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product h3 {
+    color: var(--text-gray-900, #18191F);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 142%;
+    margin-top: 16px;
+}
+
+.product p {
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    margin-top: 10px;
+}
+
+.product img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.retting {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.retting p {
+    font-size: 14px;
+    color: gray;
+    font-weight: 700;
+    line-height:  157.143% ;
+    margin-top: 10px;
+}
+.retting p i {
+    color: #FB8200;
+    font-size: 14px;
+}
+
+.product-description {
+    color: var(--gray-50, #787885);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.252px;
+    margin-top: 10px;
+    width: 196px;
+}
+
+h6 {
+    color: #E02C6DDE;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: end;
+    margin-top: 50px;
+}
+
+/* Featured style  */
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 157.895% */
+
+}
+
+.featured-description {
+    width: 501px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    text-align: start;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.featured-img img {
+    width: 100%;
+}
+
+/* Footer style  */
+
+.footer {
+    margin-top: 100px;
+    padding: 50px 0;
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.footer p {
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+
+.footer-logo {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.display {
+    /* display: none; */
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        display: none;
+    }
+    .camera-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .camera-title {
+        text-align: center;
+        
+    }
+    .camera-description {
+        text-align: center;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-content {
+        display: none;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+}
